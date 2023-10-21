@@ -1,3 +1,10 @@
+import PageHeader from "./layouts/PageHeader";
+
 export default function Home() {
-  return <main>Hello</main>;
+  return (
+    <main className="flex flex-col max-h-screen">
+      <PageHeader />
+      <div>2</div>
+    </main>
+  );
 }
