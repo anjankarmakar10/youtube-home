@@ -1,13 +1,14 @@
 import { Menu } from "lucide-react";
 import Link from "next/link";
+import Button from "@/app/components/Button";
 
 const PageHeader = () => {
   return (
     <header className="flex justify-between gap-10 lg:gap-20">
       <div className="flex items-center gap-4 flex-shrink-0">
-        <button>
+        <Button size="icon" variant={"ghost"}>
           <Menu />
-        </button>
+        </Button>
         <Link className="w-[90px]" href="/">
           <svg
             className="external-icon"
