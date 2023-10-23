@@ -250,7 +250,7 @@ function LargeSidebarItem({
       )}
     >
       {typeof IconOrImgUrl === "string" ? (
-        <img src={IconOrImgUrl} className="w-6 h-6 rounded-full" />
+        <img alt="icon" src={IconOrImgUrl} className="w-6 h-6 rounded-full" />
       ) : (
         <IconOrImgUrl className="w-6 h-6" />
       )}
